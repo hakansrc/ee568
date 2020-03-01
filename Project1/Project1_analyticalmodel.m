@@ -6,8 +6,8 @@ u0 = 4*pi*10^-7;
 deltatheta = 0.01;
 theta = 0:deltatheta:180;
 
-N = 20;
-Idc = 1;
+N = 250;
+Idc = 3;
 Leq = zeros(1,numel(theta));
 Req = zeros(1,numel(theta));
 Teq = zeros(1,numel(theta));
@@ -18,7 +18,7 @@ R2coeff_part1 = (2.5e-3)*2/(u0*2*pi*10e-3*20e-3); %
 %% for part2 Req = R2 for angle is between 77.36 - 102,64 degrees (angle coeficiencts are derived in the hand note)
 R2coeff_part2 = (2.5e-3*2)/(u0*(77.36/360)*2*pi*10e-3*20e-3);
 
-%% for part3 Req = R1//R2 for angle is between 102,64 to 180 degrees (angle coeficiencts are derived in the hand note)
+%% for part3 Req = R1//R2 for angle is between 102,64 to 180 degrees    (angle coeficiencts are derived in the hand note)
 R1coeff_part3 = (0.5e-3)*2/(u0*2*pi*12e-3*20e-3); % 
 R2coeff_part3 = (2.5e-3)*2/(u0*2*pi*10e-3*20e-3); %
 

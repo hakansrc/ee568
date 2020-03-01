@@ -2,4 +2,6 @@ $begin 'CacheDataVersion'
 	DataVersion=-1
 $end 'CacheDataVersion'
 $begin 'VariableValues'
+	NumberOfTurns='250'
+	CurrentValue='-3A'
 $end 'VariableValues'

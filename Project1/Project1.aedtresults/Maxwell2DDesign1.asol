@@ -1,34 +1,155 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002020, month=000000000002, day=000000000024, hour=000000000019, min=000000000000, sec=000000000001)
+    time(year=000000002020, month=000000000003, day=000000000001, hour=000000000019, min=000000000003, sec=000000000013)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000000693, lin=000000000017, lvl=000000000000)
+    $index$(pos=000000003895, lin=000000000134, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
+$begin 'SolutionBlock85'
+	SolutionName='AdaptivePass'
+	SolutionID=100
+	V=701
+	$begin 'States'
+		F(VID=272, Ver=701)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'PAR'
+		NextUniqueID=50
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=4
+			Ver=48
+			PAR(VID=272, Ver=48, File='DV272_SOL100_PAR4_V48.sd')
+		$end 'SubData'
+	$end 'PAR'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=272, Ver=701, File='DV272_SOL100_NFSP10_V701.sd')
+		$end 'SubData'
+	$end 'NFSP'
+$end 'SolutionBlock85'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=99, Instance=\'CurrentValue=\\\'-3A\\\' NumberOfTurns=\\\'250\\\'\', Solution=-3, VersionID=701)'='SolutionBlock88'
+	'SolutionKey(SimSetup=99, Instance=\'SetupDefinition\', Solution=-1, VersionID=701)'='SolutionBlock87'
+	'SolutionKey(SimSetup=99, Instance=\'SolutionDefinition\', Solution=100, VersionID=701)'='SolutionBlock85'
+	'SolutionKey(SimSetup=99, Instance=\'SolutionDefinition\', Solution=101, VersionID=701)'='SolutionBlock86'
+$end 'BlockMapName'
+$begin 'SolutionBlock86'
+	SolutionName='LastAdaptive'
+	SolutionID=101
+	V=701
+	$begin 'States'
+		F(VID=272, Ver=701)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(137, -1)
+		$begin 'DataMap'
+			VID=272
+			Ver=701
+			Field(DblID=137, Dir='DV272_SOL101_V701.Field137/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'PAR'
+		NextUniqueID=56
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=4
+			Ver=54
+			PAR(VID=272, Ver=54, File='DV272_SOL101_PAR4_V54.sd')
+		$end 'SubData'
+	$end 'PAR'
+$end 'SolutionBlock86'
+$begin 'SolutionBlock87'
+	SimSetupID=99
+	SimSetupName='Setup1'
+	VersionID=701
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		IDDblMap(135, 1, 138, 2, 139, 3, 181, 4, 201, 5)
+		$begin 'DataMap'
+			VID=272
+			Ver=701
+			M(DblID=138, Dir='DV272_S99_V701.cmesh138/')
+			M(DblID=139, Dir='DV272_S99_V701.cmesh139/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'LastPassNumbers'
+		LP(VID=272, Ver=701, P=2)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=272, Ver=701, File='DV272_S99_V701.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=272, Ver=701, Dir='DV272_S99_MI0_V701.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=272, Ver=701, Dir='DV272_S99_V701_MGI/')
+	$end 'MeshGeomInfo'
+$end 'SolutionBlock87'
 $begin 'SolutionBlock1'
 	ProductName=''
 	CircuitName='Maxwell2DDesign1'
-	VersionID=78
+	VersionID=701
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=80
+	NextUniqueID=735
 	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=132)
+		Map(V='CurrentValue=\'-3A\' NumberOfTurns=\'250\'', ID=272)
+		Map(V='CurrentValue=\'3A\' NumberOfTurns=\'250\'', ID=213)
+		Map(V='NumberOfTurns=\'250\'', ID=212)
+	$end 'VariationIDs'
 	$begin 'LinkedDataList'
 	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=272, Ver=701, Dir='DV272_V701.imesh/')
+	$end 'InitialMeshes'
 	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=272, Ver=701, Dir='DV272_MI0_V701.sd/')
+		$end 'SubData'
 	$end 'MI'
 $end 'SolutionBlock1'
-$begin 'BlockMapName'
-	FileHeader='SolutionBlock1'
-$end 'BlockMapName'
+$begin 'SolutionBlock88'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=508, de_ee='(0.65977, N/A)', p=1, te=6.039657744401539, ee=0.6597746486671007)
+	c(tri=666, de_ee='(0.32043, 0.54481)', p=2, te=6.072562497379271, ee=0.3204303199820185, de=0.544811550095418)
+$end 'SolutionBlock88'
 $begin '$index$'
 	$begin '$index$'
-		BlockMapName(pos=622, lin=14, lvl=0)
-		SolutionBlock1(pos=370, lin=1, lvl=0)
+		SolutionBlock88(pos=3513, lin=124, lvl=0)
+		SolutionBlock85(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=954, lin=30, lvl=0)
+		SolutionBlock86(pos=1484, lin=37, lvl=0)
+		SolutionBlock87(pos=2098, lin=68, lvl=0)
+		SolutionBlock1(pos=2844, lin=98, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=693, lin=17, lvl=0)
+		$index$(pos=3895, lin=134, lvl=0)
 	$end '$index$'
 $end '$index$'
