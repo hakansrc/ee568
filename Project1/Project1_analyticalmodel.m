@@ -70,12 +70,13 @@ for(i=1:360)
     LeqSample(i) = Leq(i*100);
     ReqSample(i) = Req(i*100);
 end
-%% load the fea results
-load('Report/Q3_figures/Q3TorqueInductanceDataMaxwell.mat');
+%% load the linear fea results
+figure
+load('Report/Q2_figures/Q2TorqueInductanceDataMaxwell_linear.mat');
 subplot(2,1,1);
 plot(LeqSample,'LineWidth',2);
 hold on
-plot(InductancePlot1.VarName2/1000,'LineWidth',2);
+plot(inductance_linear.VarName2/1000,'LineWidth',2);
 hold off
 xlabel('Rotor angle (degrees)','FontSize',12,'FontWeight','bold');
 ylabel('Inductance (Henry)','FontSize',12,'FontWeight','bold');
@@ -88,7 +89,35 @@ legend('Analytical Result','FEA Result')
 subplot(2,1,2);
 plot(TeqSample,'LineWidth',2);
 hold on
-plot(TorquePlot2Copy.Plot/1000,'LineWidth',2);
+plot(TorquePlot3_linear.VarName2/1000,'LineWidth',2);
+hold off
+xlabel('Rotor angle (degrees)','FontSize',12,'FontWeight','bold');
+ylabel('Torque (Nm)','FontSize',12,'FontWeight','bold');
+set(gca,'FontSize',12,'FontWeight','bold')
+grid on
+xlim([0 360])
+xticks([0 30 60 90 120 150 180 210 240 270 300 330 360])
+legend('Analytical Result','FEA Result')
+%% load the nonlinear fea results
+figure
+load('Report/Q3_figures/Q3TorqueInductanceDataMaxwell_nonlinear.mat');
+subplot(2,1,1);
+plot(LeqSample,'LineWidth',2);
+hold on
+plot(InductancePlot1_nonlinear.VarName2/1000,'LineWidth',2);
+hold off
+xlabel('Rotor angle (degrees)','FontSize',12,'FontWeight','bold');
+ylabel('Inductance (Henry)','FontSize',12,'FontWeight','bold');
+set(gca,'FontSize',12,'FontWeight','bold')
+grid on
+xlim([0 360])
+xticks([0 30 60 90 120 150 180 210 240 270 300 330 360])
+legend('Analytical Result','FEA Result')
+% figure
+subplot(2,1,2);
+plot(TeqSample,'LineWidth',2);
+hold on
+plot(TorquePlot2Copy_nonlinear.Plot/1000,'LineWidth',2);
 hold off
 xlabel('Rotor angle (degrees)','FontSize',12,'FontWeight','bold');
 ylabel('Torque (Nm)','FontSize',12,'FontWeight','bold');
@@ -129,4 +158,43 @@ grid on
 xlim([0 360])
 xticks([0 30 60 90 120 150 180 210 240 270 300 330 360])
 
+%%
+load('Report/Q3_figures/material.mat');
+figure
+plot(material.HA_per_meter,material.Btesla,'LineWidth',2)
 
+xlabel('Magnetic Field Strength (A/m)','FontSize',12,'FontWeight','bold');
+ylabel('Magnetic Field Density (T)','FontSize',12,'FontWeight','bold');
+set(gca,'FontSize',12,'FontWeight','bold')
+grid on
+ xlim([0 4000])
+% xticks([0 30 60 90 120 150 180 210 240 270 300 330 360])
+%%
+figure
+subplot(2,1,2)
+plot(TeqSample,'LineWidth',2);
+hold on
+plot(TorquePlot3_linear.VarName2/1000,'LineWidth',2);
+hold on
+plot(TorquePlot2Copy_nonlinear.Plot/1000,'LineWidth',2);
+hold off
+xlabel('Rotor angle (degrees)','FontSize',12,'FontWeight','bold');
+ylabel('Torque (Nm)','FontSize',12,'FontWeight','bold');
+legend('Analytical Result','Linear Material (FEA)','Nonlinear Material (FEA)')
+set(gca,'FontSize',12,'FontWeight','bold')
+grid on
+xlim([0 360])
+xticks([0 30 60 90 120 150 180 210 240 270 300 330 360])
+
+subplot(2,1,1)
+plot(LeqSample,'LineWidth',2);
+hold on
+plot(inductance_linear.VarName2/1000,'LineWidth',2);
+hold on
+plot(InductancePlot1_nonlinear.VarName2/1000,'LineWidth',2);
+hold off
+xlabel('Rotor angle (degrees)','FontSize',12,'FontWeight','bold');
+ylabel('Inductance (Henry)','FontSize',12,'FontWeight','bold');
+legend('Analytical Result','Linear Material (FEA)','Nonlinear Material (FEA)')
+set(gca,'FontSize',12,'FontWeight','bold')
+grid on
