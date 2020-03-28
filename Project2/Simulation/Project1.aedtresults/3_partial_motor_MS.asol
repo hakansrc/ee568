@@ -1,0 +1,157 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000003, day=000000000029, hour=000000000001, min=000000000017, sec=000000000033)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000003883, lin=000000000136, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock2'
+	SolutionName='AdaptivePass'
+	SolutionID=49
+	V=0
+	$begin 'States'
+		F(VID=81, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'PAR'
+		NextUniqueID=2
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=0
+			PAR(VID=81, Ver=0, File='DV81_SOL49_PAR0_V0.sd')
+		$end 'SubData'
+	$end 'PAR'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=81, Ver=0, File='DV81_SOL49_NFSP10_V0.sd')
+		$end 'SubData'
+	$end 'NFSP'
+$end 'SolutionBlock2'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=48, Instance=\'\', Solution=-3, VersionID=0)'='SolutionBlock5'
+	'SolutionKey(SimSetup=48, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock4'
+	'SolutionKey(SimSetup=48, Instance=\'SolutionDefinition\', Solution=49, VersionID=0)'='SolutionBlock2'
+	'SolutionKey(SimSetup=48, Instance=\'SolutionDefinition\', Solution=50, VersionID=0)'='SolutionBlock3'
+$end 'BlockMapName'
+$begin 'SolutionBlock3'
+	SolutionName='LastAdaptive'
+	SolutionID=50
+	V=0
+	$begin 'States'
+		F(VID=81, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(86, -1)
+		$begin 'DataMap'
+			VID=81
+			Ver=0
+			Field(DblID=86, Dir='DV81_SOL50_V0.Field86/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'PAR'
+		NextUniqueID=2
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=0
+			PAR(VID=81, Ver=0, File='DV81_SOL50_PAR0_V0.sd')
+		$end 'SubData'
+	$end 'PAR'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock4'
+	SimSetupID=48
+	SimSetupName='Setup1'
+	VersionID=0
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		IDDblMap(84, 1, 87, 2, 88, 3, 89, 4, 90, 5)
+		$begin 'DataMap'
+			VID=81
+			Ver=0
+			M(DblID=89, Dir='DV81_S48_V0.cmesh89/')
+			M(DblID=90, Dir='DV81_S48_V0.cmesh90/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'MeshOps'
+		OPS(VID=81, Ver=0, ID=0, ID=1)
+	$end 'MeshOps'
+	$begin 'LastPassNumbers'
+		LP(VID=81, Ver=0, P=4)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=81, Ver=0, File='DV81_S48_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=81, Ver=0, Dir='DV81_S48_MI0_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=81, Ver=0, Dir='DV81_S48_V0_MGI/')
+	$end 'MeshGeomInfo'
+$end 'SolutionBlock4'
+$begin 'SolutionBlock1'
+	ProductName='Maxwell 2D'
+	CircuitName='3_partial_motor_MS'
+	VersionID=47
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=91
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=81)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=81, Ver=47, Dir='DV81_V47.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=81, Ver=47, Dir='DV81_MI0_V47.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock5'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(0.1, 0.1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(de_ee='(0.45741, N/A)', ee=0.4574063684390111, p=1, te=11.57090405451754, tri=5667)
+	c(de_ee='(0.14968, 0.50566)', ee=0.149683655902496, de=0.5056615602557477, p=2, te=11.51239444053978, tri=6847)
+	c(de_ee='(0.060024, 0.12602)', ee=0.06002378631440673, de=0.1260153059767206, p=3, te=11.49788706146028, tri=8273)
+	c(de_ee='(0.034285, 0.054514)', ee=0.03428547614213136, de=0.05451403597155695, p=4, te=11.49161909917163, tri=9685)
+$end 'SolutionBlock5'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock5(pos=3263, lin=124, lvl=0)
+		SolutionBlock2(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=932, lin=30, lvl=0)
+		SolutionBlock3(pos=1398, lin=37, lvl=0)
+		SolutionBlock4(pos=1987, lin=68, lvl=0)
+		SolutionBlock1(pos=2757, lin=101, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=3883, lin=136, lvl=0)
+	$end '$index$'
+$end '$index$'
