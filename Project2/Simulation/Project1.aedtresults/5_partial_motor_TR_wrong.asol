@@ -1,0 +1,391 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000003, day=000000000031, hour=000000000023, min=000000000030, sec=000000000017)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000018262, lin=000000000372, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock12'
+	SolutionName='Transient'
+	SolutionID=78
+	V=286
+	$begin 'States'
+		F(VID=79, Ver=286)
+		F(VID=300, Ver=286)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(106, 0, 108, 0.00025, 110, 0.0005, 112, 0.00075, 114, 0.001, 116, 0.00125, 118, 0.0015, 120, 0.00175, 122, 0.002, 124, 0.00225, 126, 0.0025, 128, 0.002750000000000001, 130, 0.003000000000000001, 132, 0.003250000000000001, 134, 0.003500000000000001, 136, 0.003750000000000002, 138, 0.004000000000000002, 140, 0.004250000000000002, 142, 0.004500000000000002, 144, 0.004750000000000002, 146, 0.005000000000000003, 148, 0.005250000000000003, 150, 0.005500000000000003, 152, 0.005750000000000003, 154, 0.006000000000000004, 156, 0.006250000000000004, 158, 0.006500000000000004, 160, 0.006750000000000004, 162, 0.007000000000000004, 164, 0.007250000000000005, 166, 0.007500000000000005, 168, 0.007750000000000005, 170, 0.008000000000000005, 172, 0.008250000000000006, 174, 0.008500000000000006, 176, 0.008750000000000006, 178, 0.009000000000000006, 180, 0.009250000000000006, 182, 0.009500000000000007, 184, 0.009750000000000007, 186, 0.01000000000000001, 188, 0.01025000000000001, 190, 0.01050000000000001, 192, 0.01075000000000001, 194, 0.01100000000000001, 196, 0.01125000000000001, 198, 0.01150000000000001, 200, 0.01175000000000001, 202, 0.01200000000000001, 204, 0.01225000000000001, 206, 0.01250000000000001, 208, 0.01275000000000001, 210, 0.01300000000000001, 212, 0.01325000000000001, 214, 0.01350000000000001, 216, 0.01375000000000001, 218, 0.01400000000000001, 220, 0.01425000000000001, 222, 0.01450000000000001, 224, 0.01475000000000001, 226, 0.015, 285, 0.1, 299, 0.01079999999999996)
+		$begin 'DataMap'
+			VID=79
+			Ver=286
+			Field(DblID=106, Dir='DV79_SOL78_V286.Field106/')
+			Field(DblID=108, Dir='DV79_SOL78_V286.Field108/')
+			Field(DblID=110, Dir='DV79_SOL78_V286.Field110/')
+			Field(DblID=112, Dir='DV79_SOL78_V286.Field112/')
+			Field(DblID=114, Dir='DV79_SOL78_V286.Field114/')
+			Field(DblID=116, Dir='DV79_SOL78_V286.Field116/')
+			Field(DblID=118, Dir='DV79_SOL78_V286.Field118/')
+			Field(DblID=120, Dir='DV79_SOL78_V286.Field120/')
+			Field(DblID=122, Dir='DV79_SOL78_V286.Field122/')
+			Field(DblID=124, Dir='DV79_SOL78_V286.Field124/')
+			Field(DblID=126, Dir='DV79_SOL78_V286.Field126/')
+			Field(DblID=128, Dir='DV79_SOL78_V286.Field128/')
+			Field(DblID=130, Dir='DV79_SOL78_V286.Field130/')
+			Field(DblID=132, Dir='DV79_SOL78_V286.Field132/')
+			Field(DblID=134, Dir='DV79_SOL78_V286.Field134/')
+			Field(DblID=136, Dir='DV79_SOL78_V286.Field136/')
+			Field(DblID=138, Dir='DV79_SOL78_V286.Field138/')
+			Field(DblID=140, Dir='DV79_SOL78_V286.Field140/')
+			Field(DblID=142, Dir='DV79_SOL78_V286.Field142/')
+			Field(DblID=144, Dir='DV79_SOL78_V286.Field144/')
+			Field(DblID=146, Dir='DV79_SOL78_V286.Field146/')
+			Field(DblID=148, Dir='DV79_SOL78_V286.Field148/')
+			Field(DblID=150, Dir='DV79_SOL78_V286.Field150/')
+			Field(DblID=152, Dir='DV79_SOL78_V286.Field152/')
+			Field(DblID=154, Dir='DV79_SOL78_V286.Field154/')
+			Field(DblID=156, Dir='DV79_SOL78_V286.Field156/')
+			Field(DblID=158, Dir='DV79_SOL78_V286.Field158/')
+			Field(DblID=160, Dir='DV79_SOL78_V286.Field160/')
+			Field(DblID=162, Dir='DV79_SOL78_V286.Field162/')
+			Field(DblID=164, Dir='DV79_SOL78_V286.Field164/')
+			Field(DblID=166, Dir='DV79_SOL78_V286.Field166/')
+			Field(DblID=168, Dir='DV79_SOL78_V286.Field168/')
+			Field(DblID=170, Dir='DV79_SOL78_V286.Field170/')
+			Field(DblID=172, Dir='DV79_SOL78_V286.Field172/')
+			Field(DblID=174, Dir='DV79_SOL78_V286.Field174/')
+			Field(DblID=176, Dir='DV79_SOL78_V286.Field176/')
+			Field(DblID=178, Dir='DV79_SOL78_V286.Field178/')
+			Field(DblID=180, Dir='DV79_SOL78_V286.Field180/')
+			Field(DblID=182, Dir='DV79_SOL78_V286.Field182/')
+			Field(DblID=184, Dir='DV79_SOL78_V286.Field184/')
+			Field(DblID=186, Dir='DV79_SOL78_V286.Field186/')
+			Field(DblID=188, Dir='DV79_SOL78_V286.Field188/')
+			Field(DblID=190, Dir='DV79_SOL78_V286.Field190/')
+			Field(DblID=192, Dir='DV79_SOL78_V286.Field192/')
+			Field(DblID=299, Dir='DV79_SOL78_V286.Field299/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=300
+			Ver=286
+			Field(DblID=106, Dir='DV300_SOL78_V286.Field106/')
+			Field(DblID=108, Dir='DV300_SOL78_V286.Field108/')
+			Field(DblID=110, Dir='DV300_SOL78_V286.Field110/')
+			Field(DblID=112, Dir='DV300_SOL78_V286.Field112/')
+			Field(DblID=114, Dir='DV300_SOL78_V286.Field114/')
+			Field(DblID=116, Dir='DV300_SOL78_V286.Field116/')
+			Field(DblID=118, Dir='DV300_SOL78_V286.Field118/')
+			Field(DblID=120, Dir='DV300_SOL78_V286.Field120/')
+			Field(DblID=122, Dir='DV300_SOL78_V286.Field122/')
+			Field(DblID=124, Dir='DV300_SOL78_V286.Field124/')
+			Field(DblID=126, Dir='DV300_SOL78_V286.Field126/')
+			Field(DblID=128, Dir='DV300_SOL78_V286.Field128/')
+			Field(DblID=130, Dir='DV300_SOL78_V286.Field130/')
+			Field(DblID=132, Dir='DV300_SOL78_V286.Field132/')
+			Field(DblID=134, Dir='DV300_SOL78_V286.Field134/')
+			Field(DblID=136, Dir='DV300_SOL78_V286.Field136/')
+			Field(DblID=138, Dir='DV300_SOL78_V286.Field138/')
+			Field(DblID=140, Dir='DV300_SOL78_V286.Field140/')
+			Field(DblID=142, Dir='DV300_SOL78_V286.Field142/')
+			Field(DblID=144, Dir='DV300_SOL78_V286.Field144/')
+			Field(DblID=146, Dir='DV300_SOL78_V286.Field146/')
+			Field(DblID=148, Dir='DV300_SOL78_V286.Field148/')
+			Field(DblID=150, Dir='DV300_SOL78_V286.Field150/')
+			Field(DblID=152, Dir='DV300_SOL78_V286.Field152/')
+			Field(DblID=154, Dir='DV300_SOL78_V286.Field154/')
+			Field(DblID=156, Dir='DV300_SOL78_V286.Field156/')
+			Field(DblID=158, Dir='DV300_SOL78_V286.Field158/')
+			Field(DblID=160, Dir='DV300_SOL78_V286.Field160/')
+			Field(DblID=162, Dir='DV300_SOL78_V286.Field162/')
+			Field(DblID=164, Dir='DV300_SOL78_V286.Field164/')
+			Field(DblID=166, Dir='DV300_SOL78_V286.Field166/')
+			Field(DblID=168, Dir='DV300_SOL78_V286.Field168/')
+			Field(DblID=170, Dir='DV300_SOL78_V286.Field170/')
+			Field(DblID=172, Dir='DV300_SOL78_V286.Field172/')
+			Field(DblID=174, Dir='DV300_SOL78_V286.Field174/')
+			Field(DblID=176, Dir='DV300_SOL78_V286.Field176/')
+			Field(DblID=178, Dir='DV300_SOL78_V286.Field178/')
+			Field(DblID=180, Dir='DV300_SOL78_V286.Field180/')
+			Field(DblID=182, Dir='DV300_SOL78_V286.Field182/')
+			Field(DblID=184, Dir='DV300_SOL78_V286.Field184/')
+			Field(DblID=186, Dir='DV300_SOL78_V286.Field186/')
+			Field(DblID=188, Dir='DV300_SOL78_V286.Field188/')
+			Field(DblID=190, Dir='DV300_SOL78_V286.Field190/')
+			Field(DblID=192, Dir='DV300_SOL78_V286.Field192/')
+			Field(DblID=194, Dir='DV300_SOL78_V286.Field194/')
+			Field(DblID=196, Dir='DV300_SOL78_V286.Field196/')
+			Field(DblID=198, Dir='DV300_SOL78_V286.Field198/')
+			Field(DblID=200, Dir='DV300_SOL78_V286.Field200/')
+			Field(DblID=202, Dir='DV300_SOL78_V286.Field202/')
+			Field(DblID=204, Dir='DV300_SOL78_V286.Field204/')
+			Field(DblID=206, Dir='DV300_SOL78_V286.Field206/')
+			Field(DblID=208, Dir='DV300_SOL78_V286.Field208/')
+			Field(DblID=210, Dir='DV300_SOL78_V286.Field210/')
+			Field(DblID=212, Dir='DV300_SOL78_V286.Field212/')
+			Field(DblID=214, Dir='DV300_SOL78_V286.Field214/')
+			Field(DblID=216, Dir='DV300_SOL78_V286.Field216/')
+			Field(DblID=218, Dir='DV300_SOL78_V286.Field218/')
+			Field(DblID=220, Dir='DV300_SOL78_V286.Field220/')
+			Field(DblID=222, Dir='DV300_SOL78_V286.Field222/')
+			Field(DblID=224, Dir='DV300_SOL78_V286.Field224/')
+			Field(DblID=226, Dir='DV300_SOL78_V286.Field226/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'PD'
+		NextUniqueID=45
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=37
+			PD(VID=79, Ver=37, File='DV79_SOL78_PD0_V37.sd')
+			PD(VID=300, Ver=37, File='DV300_SOL78_PD0_V37.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			Ver=37
+			PD(VID=79, Ver=37, File='DV79_SOL78_PD1_V37.sd')
+			PD(VID=300, Ver=37, File='DV300_SOL78_PD1_V37.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			Ver=37
+			PD(VID=79, Ver=37, File='DV79_SOL78_PD2_V37.sd')
+			PD(VID=300, Ver=37, File='DV300_SOL78_PD2_V37.sd')
+		$end 'SubData'
+	$end 'PD'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=79, Ver=286, File='DV79_SOL78_NFSP10_V286.sd')
+			NFSP(VID=300, Ver=286, File='DV300_SOL78_NFSP10_V286.sd')
+		$end 'SubData'
+	$end 'NFSP'
+	$begin 'EngineSolutionData'
+		Data(VID=79, Ver=286, Dir='DV79_SOL78_V286.Data/')
+		Data(VID=300, Ver=286, Dir='DV300_SOL78_V286.Data/')
+	$end 'EngineSolutionData'
+	$begin 'PO'
+		NextUniqueID=20
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=6
+			Ver=17
+			PO(VID=79, Ver=17, File='DV79_SOL78_PO6_V17.sd')
+			PO(VID=300, Ver=17, File='DV300_SOL78_PO6_V17.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1151
+			Ver=17
+			PO(VID=79, Ver=17, File='DV79_SOL78_PO1151_V17.sd')
+			PO(VID=300, Ver=17, File='DV300_SOL78_PO1151_V17.sd')
+		$end 'SubData'
+	$end 'PO'
+$end 'SolutionBlock12'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=77, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock3'
+	'SolutionKey(SimSetup=77, Instance=\'SolutionDefinition\', Solution=78, VersionID=286)'='SolutionBlock12'
+$end 'BlockMapName'
+$begin 'SolutionBlock3'
+	SimSetupID=77
+	SimSetupName='Setup1'
+	VersionID=0
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		IDDblMap(105, 0, 107, 0.00025, 109, 0.0005, 111, 0.00075, 113, 0.001, 115, 0.00125, 117, 0.0015, 119, 0.00175, 121, 0.002, 123, 0.00225, 125, 0.0025, 127, 0.002750000000000001, 129, 0.003000000000000001, 131, 0.003250000000000001, 133, 0.003500000000000001, 135, 0.003750000000000002, 137, 0.004000000000000002, 139, 0.004250000000000002, 141, 0.004500000000000002, 143, 0.004750000000000002, 145, 0.005000000000000003, 147, 0.005250000000000003, 149, 0.005500000000000003, 151, 0.005750000000000003, 153, 0.006000000000000004, 155, 0.006250000000000004, 157, 0.006500000000000004, 159, 0.006750000000000004, 161, 0.007000000000000004, 163, 0.007250000000000005, 165, 0.007500000000000005, 167, 0.007750000000000005, 169, 0.008000000000000005, 171, 0.008250000000000006, 173, 0.008500000000000006, 175, 0.008750000000000006, 177, 0.009000000000000006, 179, 0.009250000000000006, 181, 0.009500000000000007, 183, 0.009750000000000007, 185, 0.01000000000000001, 187, 0.01025000000000001, 189, 0.01050000000000001, 191, 0.01075000000000001, 193, 0.01100000000000001, 195, 0.01125000000000001, 197, 0.01150000000000001, 199, 0.01175000000000001, 201, 0.01200000000000001, 203, 0.01225000000000001, 205, 0.01250000000000001, 207, 0.01275000000000001, 209, 0.01300000000000001, 211, 0.01325000000000001, 213, 0.01350000000000001, 215, 0.01375000000000001, 217, 0.01400000000000001, 219, 0.01425000000000001, 221, 0.01450000000000001, 223, 0.01475000000000001, 225, 0.015, 284, 0.1, 298, 0.01079999999999996)
+		$begin 'DataMap'
+			VID=79
+			Ver=286
+			M(DblID=105, Dir='DV79_S77_V286.cmesh105/')
+			M(DblID=107, Dir='DV79_S77_V286.cmesh107/')
+			M(DblID=109, Dir='DV79_S77_V286.cmesh109/')
+			M(DblID=111, Dir='DV79_S77_V286.cmesh111/')
+			M(DblID=113, Dir='DV79_S77_V286.cmesh113/')
+			M(DblID=115, Dir='DV79_S77_V286.cmesh115/')
+			M(DblID=117, Dir='DV79_S77_V286.cmesh117/')
+			M(DblID=119, Dir='DV79_S77_V286.cmesh119/')
+			M(DblID=121, Dir='DV79_S77_V286.cmesh121/')
+			M(DblID=123, Dir='DV79_S77_V286.cmesh123/')
+			M(DblID=125, Dir='DV79_S77_V286.cmesh125/')
+			M(DblID=127, Dir='DV79_S77_V286.cmesh127/')
+			M(DblID=129, Dir='DV79_S77_V286.cmesh129/')
+			M(DblID=131, Dir='DV79_S77_V286.cmesh131/')
+			M(DblID=133, Dir='DV79_S77_V286.cmesh133/')
+			M(DblID=135, Dir='DV79_S77_V286.cmesh135/')
+			M(DblID=137, Dir='DV79_S77_V286.cmesh137/')
+			M(DblID=139, Dir='DV79_S77_V286.cmesh139/')
+			M(DblID=141, Dir='DV79_S77_V286.cmesh141/')
+			M(DblID=143, Dir='DV79_S77_V286.cmesh143/')
+			M(DblID=145, Dir='DV79_S77_V286.cmesh145/')
+			M(DblID=147, Dir='DV79_S77_V286.cmesh147/')
+			M(DblID=149, Dir='DV79_S77_V286.cmesh149/')
+			M(DblID=151, Dir='DV79_S77_V286.cmesh151/')
+			M(DblID=153, Dir='DV79_S77_V286.cmesh153/')
+			M(DblID=155, Dir='DV79_S77_V286.cmesh155/')
+			M(DblID=157, Dir='DV79_S77_V286.cmesh157/')
+			M(DblID=159, Dir='DV79_S77_V286.cmesh159/')
+			M(DblID=161, Dir='DV79_S77_V286.cmesh161/')
+			M(DblID=163, Dir='DV79_S77_V286.cmesh163/')
+			M(DblID=165, Dir='DV79_S77_V286.cmesh165/')
+			M(DblID=167, Dir='DV79_S77_V286.cmesh167/')
+			M(DblID=169, Dir='DV79_S77_V286.cmesh169/')
+			M(DblID=171, Dir='DV79_S77_V286.cmesh171/')
+			M(DblID=173, Dir='DV79_S77_V286.cmesh173/')
+			M(DblID=175, Dir='DV79_S77_V286.cmesh175/')
+			M(DblID=177, Dir='DV79_S77_V286.cmesh177/')
+			M(DblID=179, Dir='DV79_S77_V286.cmesh179/')
+			M(DblID=181, Dir='DV79_S77_V286.cmesh181/')
+			M(DblID=183, Dir='DV79_S77_V286.cmesh183/')
+			M(DblID=185, Dir='DV79_S77_V286.cmesh185/')
+			M(DblID=187, Dir='DV79_S77_V286.cmesh187/')
+			M(DblID=189, Dir='DV79_S77_V286.cmesh189/')
+			M(DblID=191, Dir='DV79_S77_V286.cmesh191/')
+			M(DblID=298, Dir='DV79_S77_V286.cmesh298/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=300
+			Ver=286
+			M(DblID=105, Dir='DV300_S77_V286.cmesh105/')
+			M(DblID=107, Dir='DV300_S77_V286.cmesh107/')
+			M(DblID=109, Dir='DV300_S77_V286.cmesh109/')
+			M(DblID=111, Dir='DV300_S77_V286.cmesh111/')
+			M(DblID=113, Dir='DV300_S77_V286.cmesh113/')
+			M(DblID=115, Dir='DV300_S77_V286.cmesh115/')
+			M(DblID=117, Dir='DV300_S77_V286.cmesh117/')
+			M(DblID=119, Dir='DV300_S77_V286.cmesh119/')
+			M(DblID=121, Dir='DV300_S77_V286.cmesh121/')
+			M(DblID=123, Dir='DV300_S77_V286.cmesh123/')
+			M(DblID=125, Dir='DV300_S77_V286.cmesh125/')
+			M(DblID=127, Dir='DV300_S77_V286.cmesh127/')
+			M(DblID=129, Dir='DV300_S77_V286.cmesh129/')
+			M(DblID=131, Dir='DV300_S77_V286.cmesh131/')
+			M(DblID=133, Dir='DV300_S77_V286.cmesh133/')
+			M(DblID=135, Dir='DV300_S77_V286.cmesh135/')
+			M(DblID=137, Dir='DV300_S77_V286.cmesh137/')
+			M(DblID=139, Dir='DV300_S77_V286.cmesh139/')
+			M(DblID=141, Dir='DV300_S77_V286.cmesh141/')
+			M(DblID=143, Dir='DV300_S77_V286.cmesh143/')
+			M(DblID=145, Dir='DV300_S77_V286.cmesh145/')
+			M(DblID=147, Dir='DV300_S77_V286.cmesh147/')
+			M(DblID=149, Dir='DV300_S77_V286.cmesh149/')
+			M(DblID=151, Dir='DV300_S77_V286.cmesh151/')
+			M(DblID=153, Dir='DV300_S77_V286.cmesh153/')
+			M(DblID=155, Dir='DV300_S77_V286.cmesh155/')
+			M(DblID=157, Dir='DV300_S77_V286.cmesh157/')
+			M(DblID=159, Dir='DV300_S77_V286.cmesh159/')
+			M(DblID=161, Dir='DV300_S77_V286.cmesh161/')
+			M(DblID=163, Dir='DV300_S77_V286.cmesh163/')
+			M(DblID=165, Dir='DV300_S77_V286.cmesh165/')
+			M(DblID=167, Dir='DV300_S77_V286.cmesh167/')
+			M(DblID=169, Dir='DV300_S77_V286.cmesh169/')
+			M(DblID=171, Dir='DV300_S77_V286.cmesh171/')
+			M(DblID=173, Dir='DV300_S77_V286.cmesh173/')
+			M(DblID=175, Dir='DV300_S77_V286.cmesh175/')
+			M(DblID=177, Dir='DV300_S77_V286.cmesh177/')
+			M(DblID=179, Dir='DV300_S77_V286.cmesh179/')
+			M(DblID=181, Dir='DV300_S77_V286.cmesh181/')
+			M(DblID=183, Dir='DV300_S77_V286.cmesh183/')
+			M(DblID=185, Dir='DV300_S77_V286.cmesh185/')
+			M(DblID=187, Dir='DV300_S77_V286.cmesh187/')
+			M(DblID=189, Dir='DV300_S77_V286.cmesh189/')
+			M(DblID=191, Dir='DV300_S77_V286.cmesh191/')
+			M(DblID=193, Dir='DV300_S77_V286.cmesh193/')
+			M(DblID=195, Dir='DV300_S77_V286.cmesh195/')
+			M(DblID=197, Dir='DV300_S77_V286.cmesh197/')
+			M(DblID=199, Dir='DV300_S77_V286.cmesh199/')
+			M(DblID=201, Dir='DV300_S77_V286.cmesh201/')
+			M(DblID=203, Dir='DV300_S77_V286.cmesh203/')
+			M(DblID=205, Dir='DV300_S77_V286.cmesh205/')
+			M(DblID=207, Dir='DV300_S77_V286.cmesh207/')
+			M(DblID=209, Dir='DV300_S77_V286.cmesh209/')
+			M(DblID=211, Dir='DV300_S77_V286.cmesh211/')
+			M(DblID=213, Dir='DV300_S77_V286.cmesh213/')
+			M(DblID=215, Dir='DV300_S77_V286.cmesh215/')
+			M(DblID=217, Dir='DV300_S77_V286.cmesh217/')
+			M(DblID=219, Dir='DV300_S77_V286.cmesh219/')
+			M(DblID=221, Dir='DV300_S77_V286.cmesh221/')
+			M(DblID=223, Dir='DV300_S77_V286.cmesh223/')
+			M(DblID=225, Dir='DV300_S77_V286.cmesh225/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'StartingMesh'
+		IDDblMap(103, -1)
+		$begin 'DataMap'
+			VID=79
+			Ver=0
+			SM(DblID=103, Dir='DV79_S77_V0.smesh103/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=300
+			Ver=0
+			SM(DblID=103, Dir='DV300_S77_V0.smesh103/')
+		$end 'DataMap'
+	$end 'StartingMesh'
+	$begin 'MeshOps'
+		OPS(VID=79, Ver=0, ID=0, ID=2, ID=3, ID=4)
+		OPS(VID=300, Ver=0, ID=0, ID=2, ID=3, ID=4)
+	$end 'MeshOps'
+	$begin 'Profiles'
+		P(VID=79, Ver=0, File='DV79_S77_V0.profile')
+		P(VID=300, Ver=0, File='DV300_S77_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=79, Ver=0, Dir='DV79_S77_MI0_V0.sd/')
+			MI(VID=300, Ver=0, Dir='DV300_S77_MI0_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=79, Ver=0, Dir='DV79_S77_V0_MGI/')
+		MGI(VID=300, Ver=0, Dir='DV300_S77_V0_MGI/')
+	$end 'MeshGeomInfo'
+	$begin 'AMOsetup'
+		AMO(VID=79, Ver=0, File='DV79_S77_V0.amo')
+		AMO(VID=300, Ver=0, File='DV300_S77_V0.amo')
+	$end 'AMOsetup'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock1'
+	ProductName='Maxwell 2D'
+	CircuitName='5_partial_motor_TR_wrong'
+	VersionID=72
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=301
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='Imax=\'0A\' Omega=\'30000\' Omega_rad=\'523.59877559829886\' PolePairs=\'10\' Poles=\'20\' Speed_rpm=\'500\' Thet=\'0.3490658503988659\' Thet_deg=\'20\'', ID=300)
+		Map(V='Imax=\'250A\' Omega=\'30000\' Omega_rad=\'523.59877559829886\' PolePairs=\'10\' Poles=\'20\' Speed_rpm=\'500\' Thet=\'0.3490658503988659\' Thet_deg=\'20\'', ID=79)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=79, Ver=72, Dir='DV79_V72.imesh/')
+		M(VID=300, Ver=72, Dir='DV300_V72.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=79, Ver=72, Dir='DV79_MI0_V72.sd/')
+			MI(VID=300, Ver=72, Dir='DV300_MI0_V72.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock1(pos=17330, lin=346, lvl=0)
+		SolutionBlock12(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=9282, lin=182, lvl=0)
+		SolutionBlock3(pos=9561, lin=187, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=18262, lin=372, lvl=0)
+	$end '$index$'
+$end '$index$'

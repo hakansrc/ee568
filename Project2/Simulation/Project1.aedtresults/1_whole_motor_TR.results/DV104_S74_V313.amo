@@ -1,0 +1,76 @@
+$begin 'ConEngineContinueData'
+	$begin 'MeshSettings'
+		$begin 'GlobalSurfApproximation'
+			CurvedSurfaceApproxChoice='UseSlider'
+			SliderMeshSettings=5
+		$end 'GlobalSurfApproximation'
+		$begin 'GlobalModelRes'
+			UseAutoLength=true
+		$end 'GlobalModelRes'
+		MeshMethod='AnsoftTAU'
+	$end 'MeshSettings'
+	$begin 'MeshOperations'
+		NextUniqueID=0
+		MoveBackwards=false
+		$begin 'Coils'
+			RefineInside=true
+			ID=0
+			Type='LengthBased'
+			IsComponent=false
+			Enabled=true
+			Objects(1681, 2148, 1985, 2154, 2151, 1965, 2157, 2005, 1944, 2160, 2046, 2166, 2163, 2026, 2169, 2066, 2172, 1924, 2178, 2107, 2087, 2175, 2127, 2181)
+			RestrictElem=false
+			NumMaxElem='1000'
+			RestrictLength=true
+			MaxLength='4mm'
+		$end 'Coils'
+		$begin 'Magnet_neg'
+			RefineInside=true
+			ID=2
+			Type='LengthBased'
+			IsComponent=false
+			Enabled=true
+			Objects(2210, 2209, 2208, 2207, 2206, 2205, 2204, 2203, 2202, 1416)
+			RestrictElem=false
+			NumMaxElem='1000'
+			RestrictLength=true
+			MaxLength='3mm'
+		$end 'Magnet_neg'
+		$begin 'Magnet_pos'
+			RefineInside=true
+			ID=3
+			Type='LengthBased'
+			IsComponent=false
+			Enabled=true
+			Objects(2220, 2211, 2212, 2213, 2214, 2215, 2216, 2217, 2218, 2219)
+			RestrictElem=false
+			NumMaxElem='1000'
+			RestrictLength=true
+			MaxLength='3mm'
+		$end 'Magnet_pos'
+		$begin 'Rotor'
+			RefineInside=true
+			ID=4
+			Type='LengthBased'
+			IsComponent=false
+			Enabled=true
+			Objects(1151)
+			RestrictElem=false
+			NumMaxElem='1000'
+			RestrictLength=true
+			MaxLength='4mm'
+		$end 'Rotor'
+		$begin 'Stator'
+			RefineInside=true
+			ID=5
+			Type='LengthBased'
+			IsComponent=false
+			Enabled=true
+			Objects(6)
+			RestrictElem=false
+			NumMaxElem='1000'
+			RestrictLength=true
+			MaxLength='4mm'
+		$end 'Stator'
+	$end 'MeshOperations'
+$end 'ConEngineContinueData'
