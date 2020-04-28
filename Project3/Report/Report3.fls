@@ -105,6 +105,38 @@ INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\rerunfilecheck\
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\rerunfilecheck\rerunfilecheck.sty
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\bm.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\bm.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pstool\pstool.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pstool\pstool.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\catchfile\catchfile.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\catchfile\catchfile.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifplatform\ifplatform.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifplatform\ifplatform.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifluatex.sty
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\nul:.tex
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\filemod\filemod.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\filemod\filemod.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\filemod\filemod-expmin.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\filemod\filemod-expmin.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psfrag\psfrag.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psfrag\psfrag.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.aux
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.aux
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.aux
 OUTPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.aux
@@ -130,6 +162,17 @@ OUTPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.pdf
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.out
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.out
 OUTPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.out
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx7.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx5.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmmib7.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss10.tfm
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
@@ -146,17 +189,40 @@ INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss12.tfm
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt12.tfm
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx8.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx6.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
 INPUT C:\Users\hakan\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\filename.eps
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\filename.tex
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\filename.eps
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\filename.eps
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\filename.eps
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\filename-eps-converted-to.pdf
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\filename-eps-converted-to.pdf
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\filename.eps
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\filename-eps-converted-to.pdf
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\filename-eps-converted-to.pdf
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\filename-eps-converted-to.pdf
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\filename-eps-converted-to.pdf
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\FluxPath.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\FluxPath.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\FluxPath.png
@@ -172,6 +238,11 @@ INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\BHCurve.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\BHCurve.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\BHCurve.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\BHCurve.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MagB.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MagB.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MagB.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MagB.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MagB.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.bbl
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.bbl
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.aux

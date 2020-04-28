@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  28 APR 2020 01:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  29 APR 2020 00:20
 entering extended mode
 **c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Report3.tex
 (c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Report3.tex
@@ -252,42 +252,147 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip57
+) ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen156
+) ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count276
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count277
+\leftroot@=\count278
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count279
+\DOTSCASE@=\count280
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+\big@size=\dimen157
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count281
+\c@MaxMatrixCols=\count282
+\dotsspace@=\muskip17
+\c@parentequation=\count283
+\dspbrk@lvl=\count284
+\tag@help=\toks20
+\row@=\count285
+\column@=\count286
+\maxfields@=\count287
+\andhelp@=\toks21
+\eqnshift@=\dimen158
+\alignsep@=\dimen159
+\tagshift@=\dimen160
+\tagwidth@=\dimen161
+\totwidth@=\dimen162
+\lineht@=\dimen163
+\@envbody=\toks22
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\bm.sty"
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+) ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pstool\pstool.sty"
+Package: pstool 2018/01/20 v1.5e Wrapper for processing PostScript/psfrag figures
+ ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/catchfile\catchfile.sty"
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+) ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifpdf.sty"
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+) ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifplatform\ifplatform.sty"
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+ ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifluatex.sty"
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+
+Package ifplatform Warning: 
+    shell escape is disabled, so I can only detect \ifwindows.
+
+) ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/filemod\filemod.sty"
+Package: filemod 2011/09/19 v1.2 Get and compare file modification times
+ ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/filemod\filemod-expmin.sty"
+Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times (expandable; minimal)
+)) ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psfrag\psfrag.sty"
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count288
+\pfg@scount=\count289
+\pfg@temp=\write3
+) ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bigfoot\suffix.sty"
+Package: suffix 2006/07/15 1.5a Variant command support
+) ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex" ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
+)
+\XKV@depth=\count290
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\pstool@out=\write4
+\pstool@mainfile@ior=\read2
+\pstool@auxfile@ior=\read3
+
+
+Package pstool Warning: 
+  Package option [process=none] activated
+  because -shell-escape is not enabled.
+This warning occurred on input line 163.
+
+runsystem(cd ""& copy "Report3.aux" "Report3.oldaux" )...disabled (restricted).
+
 ) (c:/Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.aux
 
 LaTeX Warning: Label `eqn:MagnetReluctance' multiply defined.
 
+
+LaTeX Warning: Label `fig:FluxPath' multiply defined.
+
 )
 \openout1 = `Report3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
  ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
-\scratchdimen=\dimen156
-\scratchbox=\box56
-\nofMPsegments=\count277
-\nofMParguments=\count278
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count279
-\MPscratchDim=\dimen157
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count291
+\scratchdimen=\dimen164
+\scratchbox=\box58
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count294
+\MPscratchDim=\dimen165
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks27
 ) ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -296,8 +401,8 @@ Dictionary: translator-basic-dictionary, Language: English
 ) ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/siunitx\siunitx-abbreviations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-\AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 23.
+\AtBeginShipoutBox=\box59
+Package hyperref Info: Link coloring OFF on input line 25.
  ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\refcount.sty"
@@ -305,75 +410,93 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) ("C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlestring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count282
+\c@section@level=\count297
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
  (c:/Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.out) (c:/Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.out)
-\@outlinefile=\write3
-\openout3 = `Report3.out'.
+\@outlinefile=\write5
+\openout5 = `Report3.out'.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 23.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 23.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 26.
  [1
+Non-PDF special ignored!
+<special> header=psfrag.pro
 
-{C:/Users/hakan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<Figures/FluxPath.png, id=33, 232.7094pt x 125.0271pt>
+{C:/Users/hakan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+Package epstopdf Info: Source file: <filename.eps>
+(epstopdf)                    date: 2020-04-29 00:02:08
+(epstopdf)                    size: 29558 bytes
+(epstopdf)             Output file: <filename-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-04-29 00:05:24
+(epstopdf)                    size: 9028 bytes
+(epstopdf)             Command: <epstopdf --outfile=filename-eps-converted-to.pdf filename.eps>
+(epstopdf)             \includegraphics on input line 109.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/filename-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<filename-eps-converted-to.pdf, id=62, 142.5325pt x 142.5325pt>
+File: filename-eps-converted-to.pdf Graphic file (type pdf)
+<use filename-eps-converted-to.pdf>
+Package pdftex.def Info: filename-eps-converted-to.pdf  used on input line 109.
+(pdftex.def)             Requested size: 142.53214pt x 142.53214pt.
+<Figures/FluxPath.png, id=63, 232.7094pt x 125.0271pt>
 File: Figures/FluxPath.png Graphic file (type png)
 <use Figures/FluxPath.png>
-Package pdftex.def Info: Figures/FluxPath.png  used on input line 103.
+Package pdftex.def Info: Figures/FluxPath.png  used on input line 111.
 (pdftex.def)             Requested size: 279.24986pt x 150.03174pt.
- [2]
-<Figures/MagneticCircuit.png, id=55, 348.3414pt x 406.1574pt>
+<Figures/MagneticCircuit.png, id=65, 348.3414pt x 406.1574pt>
 File: Figures/MagneticCircuit.png Graphic file (type png)
 <use Figures/MagneticCircuit.png>
-Package pdftex.def Info: Figures/MagneticCircuit.png  used on input line 111.
+Package pdftex.def Info: Figures/MagneticCircuit.png  used on input line 119.
 (pdftex.def)             Requested size: 174.17027pt x 203.0782pt.
-<Figures/BHCurve.png, id=56, 457.4691pt x 294.1389pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Figures/BHCurve.png, id=66, 457.4691pt x 293.4162pt>
 File: Figures/BHCurve.png Graphic file (type png)
 <use Figures/BHCurve.png>
-Package pdftex.def Info: Figures/BHCurve.png  used on input line 117.
-(pdftex.def)             Requested size: 365.97578pt x 235.31143pt.
+Package pdftex.def Info: Figures/BHCurve.png  used on input line 125.
+(pdftex.def)             Requested size: 365.97578pt x 234.73328pt.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Figures/MagB.png, id=67, 2890.8pt x 1445.4pt>
+File: Figures/MagB.png Graphic file (type png)
+<use Figures/MagB.png>
+Package pdftex.def Info: Figures/MagB.png  used on input line 132.
+(pdftex.def)             Requested size: 433.6013pt x 216.80064pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 (c:/Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
- [3 <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Figures/FluxPath.png> <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Figures/MagneticCircuit.png>] [4 <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Figures/BHCurve.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
+ [3 <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/filename-eps-converted-to.pdf> <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Figures/FluxPath.png>] [4 <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Figures/MagneticCircuit.png> <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Figures/BHCurve.png>] [5 <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Figures/MagB.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
  (c:/Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
 Package rerunfilecheck Info: File `Report3.out' has not changed.
-(rerunfilecheck)             Checksum: 8DB22379DE772B46356ECBA2204EB2BD;168.
+(rerunfilecheck)             Checksum: 6F6169E5B2ACCE83DBF1FD11D786F171;282.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
  ) 
 Here is how much of TeX's memory you used:
- 9662 strings out of 480930
- 190467 string characters out of 2899761
- 469622 words of memory out of 3000000
- 25358 multiletter control sequences out of 15000+200000
- 539441 words of font info for 50 fonts, out of 3000000 for 9000
+ 10997 strings out of 480930
+ 209532 string characters out of 2899761
+ 494557 words of memory out of 3000000
+ 26600 multiletter control sequences out of 15000+200000
+ 545788 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,48p,566b,730s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,8n,48p,566b,713s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\hakan\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on c:/Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.pdf (4 pages, 823487 bytes).
+Output written on c:/Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.pdf (5 pages, 944175 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 40 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

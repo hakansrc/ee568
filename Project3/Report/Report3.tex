@@ -13,7 +13,9 @@
 \usepackage{siunitx}
 \usepackage{svg}
 \usepackage{hyperref}
-
+\usepackage{amsmath, bm}
+\usepackage{graphicx} 
+\usepackage{pstool}
 
 \addtolength{\oddsidemargin}{-.875in}
 \addtolength{\evensidemargin}{-.875in}
@@ -46,7 +48,7 @@ The machine parameters are as follows:
 \noindent With the assumptions made, the reluctance $R_{m1}$ and $R_{m2}$ in Figure \ref{fig:FluxPath} can be calculated as:
 
 \begin{equation} \label{eqn:PoleAreaFormula}
-    A_{pole} = \frac{\pi*D_i*L_{axial}}{P}=0.007853 \: \mathrm{m^2}
+    A_{pole} = \frac{\pi \: D_i \: L_{axial}}{P}=0.007853 \: \mathrm{m^2}
 \end{equation}
 where P is the number of poles.
 
@@ -57,23 +59,23 @@ where P is the number of poles.
 \bigskip
 
 \begin{equation} \label{eqn:MagnetAreaPerPole}
-    A_{magnetperpole} = A_{pole}*K = 0.006283 \: \mathrm{m^2}
+    A_{magnetperpole} = A_{pole}\cdot K = 0.006283 \: \mathrm{m^2}
 \end{equation}
 
 \begin{equation} \label{eqn:NonMagnetAreaPerPole}
-    A_{nonmagnetperpole} = (1-K)*A_{pole} = 0.00157 \: \mathrm{m^2}
+    A_{nonmagnetperpole} = (1-K) \cdot A_{pole} = 0.00157 \: \mathrm{m^2}
 \end{equation}
 
 \begin{equation} \label{eqn:MagnetReluctance}
-    R_{m1}  =  R_{m2} =  \frac{H_{magnet}}{A_{nonmagnetperpole}*\mu_0*\mu_r}  = 482480 \: \mathrm{\frac{1}{Henry}} 
+    R_{m1}  =  R_{m2} =  \frac{H_{magnet}}{A_{nonmagnetperpole} \cdot \mu_0 \cdot \mu_r}  = 482480 \: \mathrm{\frac{1}{Henry}} 
 \end{equation}
 
 \begin{equation} \label{eqn:MagnetReluctance}
-    R_{ag1}  =  R_{ag2} =  \frac{H_{airgap}}{A_{magnetperpole}*\mu_0}  =  126650  \: \mathrm{\frac{1}{Henry}} 
+    R_{ag1}  =  R_{ag2} =  \frac{H_{airgap}}{A_{magnetperpole} \cdot \mu_0}  =  126650  \: \mathrm{\frac{1}{Henry}} 
 \end{equation}
 
 \begin{equation} \label{eqn:MmfPerMagnet}
-    \mathcal{F}_{permagnet} = A_{magnetperpole}*B_{residual}*R_{m1} = 4001.61 \: \mathrm{Amperes}
+    \mathcal{F}_{permagnet} = A_{magnetperpole} \cdot B_{residual} \cdot R_{m1} = 4001.61 \: \mathrm{Amperes}
 \end{equation}
 
 \bigskip
@@ -82,7 +84,7 @@ where P is the number of poles.
 \bigskip
 
 \begin{equation} \label{eqn:AirGapFlux}
-    \phi_{m} = \frac{2*\mathcal{F}_{permagnet}}{R_{m1}+R_{m2}+R_{ag1}+R_{ag2}} = 0.00657 \: \mathrm{Weber}
+    \phi_{m} = \frac{2 \cdot \mathcal{F}_{permagnet}}{R_{m1}+R_{m2}+R_{ag1}+R_{ag2}} = 0.00657 \: \mathrm{Weber}
 \end{equation}
 
 \begin{equation} \label{eqn:AirGapFluxDensity}
@@ -91,13 +93,19 @@ where P is the number of poles.
 
 \noindent From the values found in (\ref{eqn:AirGapFluxDensity}), the magnetic field strength value is provided in (\ref{eqn:MagneticFieldStrength}).
 \begin{equation} \label{eqn:MagneticFieldStrength}
-    H_m = \frac{B_m-B_{residual}}{\mu_r*\mu_0} = -208004.48 \: \mathrm{\frac{A}{m}}
+    H_m = \frac{B_m-B_{residual}}{\mu_r \cdot \mu_0} = -208004.48 \: \mathrm{\frac{A}{m}}
 \end{equation}
 
-As stated in \cite{e-magnetsuk}, the coercivity value for a N42 NdFeB magnet is around $955 \: \mathrm{\frac{kA}{m}}$
+As stated in \cite{e-magnetsuk}, the coercivity value for a N42 NdFeB magnet is around $\pmb{955} \: \pmb{\mathrm{\frac{kA}{m}}}$
 
+\subsection{Part - b}
+The magnetic loading of the machine is given in (\ref{eqn:MagneticLoading})
+\begin{equation} \label{eqn:MagneticLoading}
+    \bar{B} = \frac{P\:\phi_{m}}{\pi \: D_i \: L_{axial}} = 0.8364 \: \mathrm{Tesla}
+\end{equation}
 
-
+\subsection{Part - c}
+\psfragfig{filename}
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=1.2]{Figures/FluxPath.png}
@@ -117,6 +125,13 @@ As stated in \cite{e-magnetsuk}, the coercivity value for a N42 NdFeB magnet is 
 \includegraphics[scale=0.8]{Figures/BHCurve.png}
 \caption{N42 NdFeB - BH curve with load line}
 \label{fig:BHCurve}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.15]{Figures/MagB.png}
+\caption{Magnetic Flux Density Magnitude }
+\label{fig:FluxPath}
 \end{figure}
 
 
