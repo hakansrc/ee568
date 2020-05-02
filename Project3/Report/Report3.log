@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  29 APR 2020 00:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  2 MAY 2020 23:45
 entering extended mode
 **c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Report3.tex
 (c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Report3.tex
@@ -358,9 +358,6 @@ runsystem(cd ""& copy "Report3.aux" "Report3.oldaux" )...disabled (restricted).
 
 LaTeX Warning: Label `eqn:MagnetReluctance' multiply defined.
 
-
-LaTeX Warning: Label `fig:FluxPath' multiply defined.
-
 )
 \openout1 = `Report3.aux'.
 
@@ -424,79 +421,68 @@ Non-PDF special ignored!
 <special> header=psfrag.pro
 
 {C:/Users/hakan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Package epstopdf Info: Source file: <filename.eps>
-(epstopdf)                    date: 2020-04-29 00:02:08
-(epstopdf)                    size: 29558 bytes
-(epstopdf)             Output file: <filename-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-04-29 00:05:24
-(epstopdf)                    size: 9028 bytes
-(epstopdf)             Command: <epstopdf --outfile=filename-eps-converted-to.pdf filename.eps>
-(epstopdf)             \includegraphics on input line 109.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/filename-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<filename-eps-converted-to.pdf, id=62, 142.5325pt x 142.5325pt>
-File: filename-eps-converted-to.pdf Graphic file (type pdf)
-<use filename-eps-converted-to.pdf>
-Package pdftex.def Info: filename-eps-converted-to.pdf  used on input line 109.
-(pdftex.def)             Requested size: 142.53214pt x 142.53214pt.
-<Figures/FluxPath.png, id=63, 232.7094pt x 125.0271pt>
+<Figures/FluxPath.png, id=91, 232.7094pt x 125.0271pt>
 File: Figures/FluxPath.png Graphic file (type png)
 <use Figures/FluxPath.png>
-Package pdftex.def Info: Figures/FluxPath.png  used on input line 111.
+Package pdftex.def Info: Figures/FluxPath.png  used on input line 112.
 (pdftex.def)             Requested size: 279.24986pt x 150.03174pt.
-<Figures/MagneticCircuit.png, id=65, 348.3414pt x 406.1574pt>
+<Figures/MagneticCircuit.png, id=93, 348.3414pt x 406.1574pt>
 File: Figures/MagneticCircuit.png Graphic file (type png)
 <use Figures/MagneticCircuit.png>
-Package pdftex.def Info: Figures/MagneticCircuit.png  used on input line 119.
+Package pdftex.def Info: Figures/MagneticCircuit.png  used on input line 120.
 (pdftex.def)             Requested size: 174.17027pt x 203.0782pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/BHCurve.png, id=66, 457.4691pt x 293.4162pt>
+<Figures/BHCurve.png, id=94, 457.4691pt x 293.4162pt>
 File: Figures/BHCurve.png Graphic file (type png)
 <use Figures/BHCurve.png>
-Package pdftex.def Info: Figures/BHCurve.png  used on input line 125.
+Package pdftex.def Info: Figures/BHCurve.png  used on input line 126.
 (pdftex.def)             Requested size: 365.97578pt x 234.73328pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/MagB.png, id=67, 2890.8pt x 1445.4pt>
+<Figures/MagB.png, id=95, 2890.8pt x 1445.4pt>
 File: Figures/MagB.png Graphic file (type png)
 <use Figures/MagB.png>
-Package pdftex.def Info: Figures/MagB.png  used on input line 132.
+Package pdftex.def Info: Figures/MagB.png  used on input line 133.
 (pdftex.def)             Requested size: 433.6013pt x 216.80064pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(c:/Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
- [3 <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/filename-eps-converted-to.pdf> <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Figures/FluxPath.png>] [4 <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Figures/MagneticCircuit.png> <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Figures/BHCurve.png>] [5 <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Figures/MagB.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
+[3 <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Figures/FluxPath.png> <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Figures/MagneticCircuit.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Figures/BHCurve.png> <c:/Users/hakan/Documents/GitHub/ee568/Project3/Report/Figures/MagB.png (PNG copy)>]
+
+LaTeX Warning: Command \L invalid in math mode on input line 213.
+
+[5] (c:/Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
  (c:/Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
 Package rerunfilecheck Info: File `Report3.out' has not changed.
-(rerunfilecheck)             Checksum: 6F6169E5B2ACCE83DBF1FD11D786F171;282.
+(rerunfilecheck)             Checksum: 5C9D77A49E322F2FF6F4F2F84EEA71E8;712.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
  ) 
 Here is how much of TeX's memory you used:
- 10997 strings out of 480930
- 209532 string characters out of 2899761
- 494557 words of memory out of 3000000
- 26600 multiletter control sequences out of 15000+200000
+ 11003 strings out of 480930
+ 209679 string characters out of 2899761
+ 496097 words of memory out of 3000000
+ 26599 multiletter control sequences out of 15000+200000
  545788 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,48p,566b,713s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\hakan\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on c:/Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.pdf (5 pages, 944175 bytes).
+ 39i,12n,48p,566b,744s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\hakan\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/hakan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on c:/Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.pdf (6 pages, 974195 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
