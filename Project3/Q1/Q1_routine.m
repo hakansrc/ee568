@@ -2,6 +2,7 @@ close all
 clear
 clc
 load("MagB")
+load("MagBQ3")
 NumberOfPhases = 3;
 NumberOfPoles = 4;
 MotorAxialLength = 100e-3; % meters
@@ -101,7 +102,7 @@ PeakFluxDensityAirGap = max(MagB.MagB);
 AverageTangentialStress = ElectricalLoadingRMS*PeakFluxDensityAirGap/(sqrt(2));
 Torque = AverageTangentialStress*(RotorDiameter/2)*(pi*RotorDiameter*MotorAxialLength);
 Force = AverageTangentialStress*(pi*RotorDiameter*MotorAxialLength);
-Power = Torque*1500/60*2*pi
+Power = Torque*1500/60*2*pi;
 
 FluxPerPole = MagnetAreaPerPole*PeakFluxDensityAirGap;
 BackCoreFluxDensity = 1.50;
@@ -115,22 +116,36 @@ MagneticLoading = NumberOfPoles*FluxPerPole/(pi*RotorDiameter*MotorAxialLength);
 
 
 %%
-% plot(360*MagB.Distance/(pi*104.5),MagB.MagB,'LineWidth',6);
-% xlabel('Rotor angle (degrees)','FontSize',12,'FontWeight','bold');
-% ylabel('Flux Density (T)','FontSize',12,'FontWeight','bold');
-% set(gca,'FontSize',12,'FontWeight','bold')
-% grid on
-% xlim([0 360])
-% xticks([0 30 60 90 120 150 180 210 240 270 300 330 360])
-% res = 300;
-% size = [12000 6000];
-% set(gcf,'paperunits','inches','paperposition',[0 0 size/res]);
-% print('resized.tiff','-dtiff',['-r' num2str(res)]);
-% % hold on
-% % plot(360*MagB.Distance(56)/(pi*104.5),MagB.MagB(56),'+','markersize',12,'linewidth',2)
-% %legend('Analytical Result','FEA Result')
-% MagB_mean = 0;
-% for i =1:numel(MagB.MagB)
-%     MagB_mean = MagB_mean+ MagB.MagB(i);
-% end
-% MagB_mean = MagB_mean/numel(MagB.MagB);
+plot(360*MagB.Distance/(pi*104.5),MagB.MagB,'LineWidth',6);
+xlabel('Rotor angle (degrees)','FontSize',12,'FontWeight','bold');
+ylabel('Flux Density (T)','FontSize',12,'FontWeight','bold');
+set(gca,'FontSize',12,'FontWeight','bold')
+grid on
+xlim([0 360])
+xticks([0 30 60 90 120 150 180 210 240 270 300 330 360])
+res = 300;
+size = [12000 6000];
+set(gcf,'paperunits','inches','paperposition',[0 0 size/res]);
+xlim([0 360])
+xticks([0 30 60 90 120 150 180 210 240 270 300 330 360])
+print('resized.tiff','-dtiff',['-r' num2str(res)]);
+%%
+plot(360*MagBQ3.position/(202.068),MagBQ3.mtesla/1000,'LineWidth',6);
+xlabel('Rotor angle (degrees)','FontSize',12,'FontWeight','bold');
+ylabel('Flux Density (T)','FontSize',12,'FontWeight','bold');
+set(gca,'FontSize',12,'FontWeight','bold')
+grid on
+xlim([0 360])
+xticks([0 30 60 90 120 150 180 210 240 270 300 330 360])
+res = 300;
+size = [12000 6000];
+set(gcf,'paperunits','inches','paperposition',[0 0 size/res]);
+xlim([0 360])
+xticks([0 30 60 90 120 150 180 210 240 270 300 330 360])
+print('resized.tiff','-dtiff',['-r' num2str(res)]);
+
+MagBQ3_mean = 0;
+for i =1:numel(MagB.MagB)
+    MagBQ3_mean = MagBQ3_mean+ MagBQ3.mtesla(i);
+end
+MagBQ3_mean = MagBQ3_mean/numel(MagBQ3.mtesla)

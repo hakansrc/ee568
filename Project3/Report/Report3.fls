@@ -8,6 +8,8 @@ INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.sty
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.sty
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
@@ -210,6 +212,9 @@ INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts
 INPUT C:\Users\hakan\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.toc
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.toc
+OUTPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.toc
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\FluxPath.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\FluxPath.png
@@ -226,18 +231,33 @@ INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\BHCurve.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\BHCurve.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\BHCurve.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\BHCurve.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MachineQ1.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MachineQ1.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MachineQ1.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MachineQ1.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MachineQ1.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MagB.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MagB.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MagB.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MagB.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MagB.png
-INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.bbl
-INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.bbl
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MachineQ3.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MachineQ3.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MachineQ3.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MachineQ3.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MachineQ3.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MagBQ3.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MagBQ3.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MagBQ3.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MagBQ3.png
+INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Figures\MagBQ3.png
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.aux
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.out
 INPUT c:\Users\hakan\Documents\GitHub\ee568\Project3\Report\Report3.out
 INPUT C:\Users\hakan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\hakan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
@@ -248,8 +268,6 @@ INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfon
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr17.pfb
-INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Users\hakan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb

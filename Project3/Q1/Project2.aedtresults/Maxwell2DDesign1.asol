@@ -1,0 +1,69 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000005, day=000000000003, hour=000000000022, min=000000000048, sec=000000000038)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000001727, lin=000000000050, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock139'
+	SimSetupID=150
+	SimSetupName='Setup1'
+	VersionID=629
+	SolveSetupID=1
+	$begin 'Profiles'
+		P(VID=564, Ver=629, File='DV564_S150_V629.profile')
+	$end 'Profiles'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock139'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=150, Instance=\'SetupDefinition\', Solution=-1, VersionID=629)'='SolutionBlock139'
+	'SolutionKey(SimSetup=150, Instance=\'SolutionDefinition\', Solution=151, VersionID=629)'='SolutionBlock138'
+$end 'BlockMapName'
+$begin 'SolutionBlock138'
+	SolutionName='Transient'
+	SolutionID=151
+	V=629
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+$end 'SolutionBlock138'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign1'
+	VersionID=629
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=653
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=105)
+		Map(V='CurrentPeak=\'2.5A\'', ID=238)
+		Map(V='CurrentPeak=\'2.5A\' NumberOfConductors=\'1\' Omega_deg=\'0\'', ID=564)
+		Map(V='CurrentPeak=\'2.5A\' NumberOfConductors=\'61\'', ID=481)
+		Map(V='CurrentPeak=\'2.5A\' NumberOfConductors=\'61\' Omega_deg=\'0\'', ID=510)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock1(pos=1140, lin=30, lvl=0)
+		BlockMapName(pos=604, lin=12, lvl=0)
+		SolutionBlock138(pos=891, lin=17, lvl=0)
+		SolutionBlock139(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=1727, lin=50, lvl=0)
+	$end '$index$'
+$end '$index$'
