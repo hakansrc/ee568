@@ -1,0 +1,119 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000005, day=000000000003, hour=000000000018, min=000000000055, sec=000000000037)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000003051, lin=000000000098, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign1'
+	VersionID=56
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=149
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=87)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=87, Ver=56, Dir='DV87_V56.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=87, Ver=56, Dir='DV87_MI0_V56.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=51, Instance=\'\', Solution=-3, VersionID=56)'='SolutionBlock9'
+	'SolutionKey(SimSetup=51, Instance=\'SetupDefinition\', Solution=-1, VersionID=56)'='SolutionBlock8'
+	'SolutionKey(SimSetup=51, Instance=\'SolutionDefinition\', Solution=52, VersionID=118)'='SolutionBlock10'
+	'SolutionKey(SimSetup=51, Instance=\'SolutionDefinition\', Solution=53, VersionID=118)'='SolutionBlock11'
+$end 'BlockMapName'
+$begin 'SolutionBlock10'
+	SolutionName='AdaptivePass'
+	SolutionID=52
+	V=118
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+$end 'SolutionBlock10'
+$begin 'SolutionBlock11'
+	SolutionName='LastAdaptive'
+	SolutionID=53
+	V=118
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+$end 'SolutionBlock11'
+$begin 'SolutionBlock8'
+	SimSetupID=51
+	SimSetupName='Setup1'
+	VersionID=56
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		IDDblMap(90, 1, 93, 2, 94, 3, 95, 4)
+		$begin 'DataMap'
+			VID=87
+			Ver=56
+			M(DblID=94, Dir='DV87_S51_V56.cmesh94/')
+			M(DblID=95, Dir='DV87_S51_V56.cmesh95/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'LastPassNumbers'
+		LP(VID=87, Ver=56, P=3)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=87, Ver=56, File='DV87_S51_V56.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=87, Ver=56, Dir='DV87_S51_MI0_V56.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=87, Ver=56, Dir='DV87_S51_V56_MGI/')
+	$end 'MeshGeomInfo'
+$end 'SolutionBlock8'
+$begin 'SolutionBlock9'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(0.1, 0.1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(de_ee='(0.10154, N/A)', ee=0.1015436267428035, te=62.20550666476856, p=1, tri=2610)
+	c(de_ee='(0.026818, 0.12969)', ee=0.02681780759881359, te=62.12483274084355, p=2, de=0.1296893607181299, tri=3004)
+	c(de_ee='(0.015256, 0.042476)', ee=0.01525553457435905, te=62.09844489894283, p=3, de=0.04247551379461951, tri=3460)
+$end 'SolutionBlock9'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock9(pos=2544, lin=87, lvl=0)
+		SolutionBlock10(pos=1339, lin=31, lvl=0)
+		SolutionBlock11(pos=1588, lin=44, lvl=0)
+		SolutionBlock8(pos=1837, lin=57, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=865, lin=24, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=3051, lin=98, lvl=0)
+	$end '$index$'
+$end '$index$'

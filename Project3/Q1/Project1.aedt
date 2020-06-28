@@ -340,6 +340,21 @@ $begin 'AnsoftProject'
 					TextProp('Owner', 'SRD', '', 'Maxwell 2D')
 				$end 'Properties'
 				CompExtID=6
+				$begin 'Parameters'
+					MenuProp('CoSimulator', 'D', '', 'DefaultNetlist', 0)
+					ButtonProp('CosimDefinition', 'D', '', '', 'Edit', 40501, ButtonPropClientData())
+				$end 'Parameters'
+				$begin 'CosimDefinitions'
+					$begin 'CosimDefinition'
+						CosimulatorType=4
+						CosimDefName='DefaultNetlist'
+						IsDefinition=true
+						Connect=true
+						Data()
+						GRef()
+					$end 'CosimDefinition'
+					DefaultCosim='DefaultNetlist'
+				$end 'CosimDefinitions'
 			$end 'Maxwell2DDesign1'
 		$end 'Compdefs'
 	$end 'Definitions'
@@ -394,7 +409,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=16
+				DataVersion=17
 				NativeKernel='ACIS'
 				NativeKernelVersionID=13
 				Units='mm'
@@ -1339,7 +1354,7 @@ $begin 'AnsoftProject'
 								PartCoordinateSystem=1
 								UDMId=-1
 								GroupId=-1
-								MaterialValue='"N42_material_neg"'
+								MaterialValue='"N42_material_pos"'
 								SurfaceMaterialValue='""'
 								SolveInside=true
 								IsMaterialEditable=true
@@ -1773,8 +1788,6 @@ $begin 'AnsoftProject'
 					PercentError=0.1
 					SolveMatrixAtLast=true
 					PercentError=0.1
-					CacheSaveKind='Delta'
-					ConstantDelta='0s'
 					NonLinearResidual=1e-05
 					SmoothBHCurve=false
 					$begin 'MuOption'
@@ -1849,14 +1862,9 @@ $begin 'AnsoftProject'
 							MoveBackwards=false
 							IDMap()
 						$end 'QuantityIDs'
-						SimValue('Flux_Lines', 1, 90, false, SimValueID=96, 0, 0, 2, 0, false, false, 137, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('Mag_B', 1, 103, false, SimValueID=97, 0, 0, 2, 0, false, false, 137, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('line', 1, 90, false, SimValueID=98, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('line', 1, 90, false, SimValueID=99, 0, 0, 2, 0, false, false, 137, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('line', 1, 90, false, SimValueID=100, 0, 0, 2, 0, false, false, 137, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('Flux_Lines', 1, 90, false, SimValueID=101, 0, 0, 2, 0, false, false, 137, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('Mag_B', 1, 103, false, SimValueID=102, 0, 0, 2, 0, false, false, 137, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('Area(Stator)', 1, 235, false, SimValueID=103, 0, 0, 2, 0, false, false, 137, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
+						SimValue('Mag_B', 1, 103, false, SimValueID=115, 0, 0, 2, 0, false, false, 137, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+						SimValue('Mag_B', 1, 103, false, SimValueID=116, 0, 0, 2, 0, false, false, 137, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
+						SimValue('line', 1, 90, false, SimValueID=117, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='NormalizedDistance'
@@ -1908,8 +1916,8 @@ $begin 'AnsoftProject'
 				$begin 'Setup'
 					N='Setup1'
 					V=56
-					Soln(N='AdaptivePass', V=56)
-					Soln(N='LastAdaptive', V=56)
+					Soln(N='AdaptivePass', V=118)
+					Soln(N='LastAdaptive', V=118)
 				$end 'Setup'
 			$end 'Version ID Map'
 			$begin 'ID Map'
@@ -1947,6 +1955,10 @@ $begin 'AnsoftProject'
 				$begin 'Properties'
 					TextProp('ID', 'SRID', '', '0')
 				$end 'Properties'
+				$begin 'Parameters'
+					MenuProp('CoSimulator', 'OHD', '', 'DefaultNetlist', 0)
+					ButtonProp('CosimDefinition', 'OHD', '', '', 'Edit', 40501, ButtonPropClientData())
+				$end 'Parameters'
 			$end 'Compinst'
 		$end 'CompInstances'
 		$begin 'Instance'
@@ -1956,7 +1968,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=1
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						Circuit(Editor3d(View(WindowPos(3, -1, -1, -8, -31, 0, 0, 1321, 486), OrientationMatrix(0.0120000001043081, 3.5975233902974e-10, -1.54792664797121e-10, 0, 2.59071847308334e-10, 0.0120000001043081, 0, 0, -2.33979002839391e-10, -1.20900334188434e-09, 0.0120000001043081, 0, -1.19209289550781e-07, 0, -5.05455875396729, 1, 0, -1.30237913131714, 1.84955596923828, -1.019810795784, 1.01114308834076, -1.30940246582031, 11.4185199737549), Drawings[7: 'Stator', 'Rotor', 'PM2', 'PM4', 'PM3', 'PM1', 'Circle2'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=0, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=5, dYForGrid=5, dZForGrid=5, dRForGrid=5, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						Circuit(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 52, 52, 1272, 592), OrientationMatrix(0.00620687007904053, 0, 0, 0, 0, 0.00620687007904053, 0, 0, 0, 0, 0.00620687007904053, 0, 2.98023223876953e-08, -2.98023223876953e-08, -5.05455875396729, 1, 0, -0.358153462409973, 0.643824934959412, -0.0849188566207886, 0.442047536373138, -1.30937528610229, 11.418493270874), Drawings[8: 'Circle1', 'Stator', 'Rotor', 'PM2', 'PM4', 'PM3', 'PM1', 'Circle2'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=0, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=5, dYForGrid=5, dZForGrid=5, dRForGrid=5, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -3310,7 +3322,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -3416,6 +3428,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -3472,26 +3508,6 @@ $begin 'AnsoftProject'
 							ReportID=7
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(36)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0.0108672976493835, 1.0016188621521, -0.00865292549133301, 0.982098579406738, 0, 1, 0, 1, 0, 1)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 104, 104, 1324, 644))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end ' Plot 1'
@@ -3506,6 +3522,14 @@ $begin 'AnsoftProject'
 			$end 'Maxwell2DDesignInstance'
 		$end 'Instance'
 		$begin 'SODInfo'
+			$begin 'Maxwell2DDesign1'
+				$begin 'CosimDefinition'
+					CosimDefName='DefaultNetlist'
+					$begin 'SODInstanceMap'
+					$end 'SODInstanceMap'
+					SODComponentList()
+				$end 'CosimDefinition'
+			$end 'Maxwell2DDesign1'
 		$end 'SODInfo'
 	$end 'DataInstances'
 	$begin 'WBSystemIDToDesignInstanceIDMap'
@@ -3659,7 +3683,7 @@ Fe0fQH//2Q=='
 		DesignName='Maxwell2DDesign1'
 		Notes=''
 		Factory='Maxwell 2D'
-		IsSolved=true
+		IsSolved=false
 		'Nominal Setups'[1: 'Setup1']
 		'Nominal Setup Types'[1: '']
 		'Optimetrics Setups'[0:]
