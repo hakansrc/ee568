@@ -1,8 +1,0 @@
-$begin 'CacheDataVersion'
-	DataVersion=-1
-$end 'CacheDataVersion'
-$begin 'VariableValues'
-	NumberOfTurns='250'
-	CurrentValue='-3A'
-	teta='0deg'
-$end 'VariableValues'
