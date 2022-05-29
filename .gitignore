@@ -1,3 +1,12 @@
 Project1/Project1.aedtresults/*
 Project1/Project1.aedtresul*
 books/*
+Project2/Simulation/Project1.aedtresults/*
+*.asol
+Project2/Simulation/Project1.aedtresults/1_whole_motor.asol
+Project2/Simulation/Project1.aedtresults/1_whole_motor_TR.asol
+Project2/Simulation/Project1.aedtresults/2_partial_half.asol
+Project2/Simulation/Project1.aedtresults/2_partial_motor.asol
+Project2/Simulation/Project1.aedtresults/3_partial_motor_MS.asol
+Project2/Simulation/Project1.aedtresults/4_partial_motor_MS2.asol
+Project2/Simulation/Project1.aedtresults/5_partial_motor_TR_wrong.asol
